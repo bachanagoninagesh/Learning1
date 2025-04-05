@@ -50,4 +50,16 @@ li {
     margin-bottom: 5px;
     border-radius: 4px;
     word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-btn {
+    color: #dc3545;
+    text-decoration: none;
+    font-size: 14px;
+}
+.delete-btn:hover {
+    color: #c82333;
+    text-decoration: underline;
 }
